@@ -1,8 +1,6 @@
-## **MAKSIM ZYL**
-
----
-
 ![Profile Photo](https://maksimzyl.github.io/rsschool-cv/profilephoto.jpg)
+
+## **MAKSIM ZYL**
 
 ---
 
