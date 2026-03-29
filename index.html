@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Maksim Zyl CV</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#aboutme" class="nav-link">About me</a>
+            <a href="#skills" class="nav-link">Skills</a>            
+            <a href="#code" class="nav-link">Code</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>        
+        <section id="aboutme" class="aboutme">
+            <div class="aboutme-content">
+                <h1>MAKSIM ZYL</h1>
+                <p>
+                    I am a development-oriented specialist in analytics and data science. I have good logical thinking skills, am attentive to detail and know how to find effective solutions. I have practical experience working with data analysis and visualization tools (for example, Qlik Sense), as well as experience in solving business problems. I strive to deepen my knowledge, master new technologies and bring value to the team and business.
+                </p>
+            </div>
+            <div class="img-box">
+                <img src="profilephoto.jpg" alt="Profile photo">
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Git/GitHub</li>
+                <li>Qlik Sense/Qlikview</li>
+                <li>JS (Fundamentals)</li>
+                <li>English (A2)</li>
+            </ul>
+        </section>
+
+        <section id="code">
+            <h2>Code</h2>
+            <pre>
+function opposite(number) {
+  // your code here
+  return number *= -1;
+}
+            </pre>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://maksimzyl.github.io/rsschool-cv/cv" target="_blank">CV</a></li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Minsk State Higher Radio Engineering College (MGVRK)
+                    <ul>
+                        <li>Information Technology Software</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: maksim.vasilevich.zyl@gmail.com</li>
+                <li>Phone: +375291338079</li>
+                <li>Address: Street Geroev 120-y Divizii, 29-62, Minsk, Belarus</li>
+                <li>Discord: maksim.zyl</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="footer_github" href="https://github.com/maksimzyl" target="_blank">My GitHub</a>
+        <p class="footer_year">2026</p>
+        <a class="footer_rsschool" href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="rs-school-logo.svg" width="86" height="32" alt="RS School"></a>
+    </footer>
 </body>
 </html>
